@@ -2,8 +2,8 @@
 /*
  *Created by 000407
  */
-int my_strlen(char *s){
-	char *p = s;
+int my_strlen(const char *s){
+	const char *p = s;
 	while (*p)
 		++p;
 	return (p - s);
